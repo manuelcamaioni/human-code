@@ -1,0 +1,41 @@
+1. In cucina, apro il frigorifero
+2. Osservando il frigorifero, mi rendo conto che è vuoto
+3. Dato che il frigorifero è vuoto, decido di comprare del cibo
+4. Chiudo il frigorifero
+5. Decido di fare una lista della spesa in modo da non dimenticarmi nulla, dando priorità alle crocchette per Ricky
+6. Apro la dispensa
+7. Controllo cosa manca in dispensa per la settimana (le crocchette saranno comunque comprese in questo controllo)
+
+   SE
+        a. Se qualcosa ce l' ho già, non la scrivo nella lista della spesa
+   ALTRIMENTI:
+        b: La scrivo nella lista della spesa
+    FINCHè:
+        a. non sono passati al massimo 10 minuti da quando sto controllando la dispensa
+
+8. Metto in tasca la lista della spesa
+9. Esco di casa
+10. Mi dirigo verso il supermercato
+11. Arrivo al supermercato
+12. Prendo un carrello
+13. Consulto la lista
+14. Mi dirigo verso il primo reparto vicino
+15. Controllo se ci sia qualcosa che è scritto nella mia lista
+
+    SE:
+        a. c'è quello che mi serve, lo prendo, lo metto nel carrello e lo cancello dalla lista
+    ALTRIMENTI:
+        b. Mi dirigo verso il prossimo reparto
+    FINCHè
+        a. Non trovo ciò che mi serve e ho eliminato tutte le voci della lista
+
+16. Quando ho cancellato tutte le voci dalla lista, mi dirigo verso la cassa del supermercato col carrello
+17. Alla cassa, se i soldi non bastano a comprare tutto, tolgo prodotti dal carrello, che non siano le crocchette, fino a rientrare nel budget
+18. Pago la spesa con il coupon:
+
+    SE
+      a. L'importo supera il credito totale che ho nel portafogli, lascio degli snack extra
+    ALTRIMENTI
+      b. Pago tutto, riposo il carrello ed esco dal supermercato
+
+19. Mi dirigo verso casa
